@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "homepage": "http://vishal5251.github.io/markdown-previewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
