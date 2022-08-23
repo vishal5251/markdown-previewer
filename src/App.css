@@ -16,11 +16,18 @@ body{
 
 .row{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.row>*{
+    width: 100%;
 }
 
 header{
+    padding: auto;
     display: block ;
     border: 2px solid black;
 }
