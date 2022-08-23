@@ -17,6 +17,7 @@ body{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -24,6 +25,7 @@ body{
 
 .row>*{
     width: 100%;
+    flex-shrink: none;
 }
 
 header{
